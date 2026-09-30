@@ -1,0 +1,21 @@
+# Compiled programs
+omp-k-means
+cuda-k-means
+inputgen
+*.o
+
+# Python cache
+**/__pycache__/
+
+# Generated inputs and large k-means outputs
+inputs/
+results/**/*.out
+
+# Course material and local folders
+example_inputs/
+demo_programs/
+report/
+FioreChristianJoseph/
+*.zip
+plot.sh
+notes.txt
